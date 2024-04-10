@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "sds",
+  "version": "${version}",
+
+  "name": "Survival Debug Stick Mod",
+  "description": "This mod provides survival players with ability to create and use debug stick from creative inventory",
+  "authors": [
+    "Just_S"
+  ],
+  "contact": {
+    "YouTube": "https://www.youtube.com/c/JustS_js",
+    "sources": "https://github.com/JustS-js/debugStickSurvival"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/sds/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.just_s.sds.SDSMod"
+    ]
+  },
+  "mixins": [
+    "sds.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": ">=1.20",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
